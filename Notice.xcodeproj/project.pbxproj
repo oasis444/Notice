@@ -18,6 +18,7 @@
 		33C982502A09C14400DBAFFA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33C9824F2A09C14400DBAFFA /* GoogleService-Info.plist */; };
 		33C982532A09C39400DBAFFA /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 33C982522A09C39400DBAFFA /* FirebaseAnalytics */; };
 		33C982552A09C39400DBAFFA /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 33C982542A09C39400DBAFFA /* FirebaseRemoteConfig */; };
+		33C982572A0A3CB100DBAFFA /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33C982562A0A3CB100DBAFFA /* RemoteConfigDefaults.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		33C9824B2A09BC4300DBAFFA /* NoticeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeVC.swift; sourceTree = "<group>"; };
 		33C9824C2A09BC4300DBAFFA /* NoticeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoticeVC.xib; sourceTree = "<group>"; };
 		33C9824F2A09C14400DBAFFA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		33C982562A0A3CB100DBAFFA /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				336F6DB52A09BBA600CCBBF6 /* Assets.xcassets */,
 				336F6DB72A09BBA600CCBBF6 /* LaunchScreen.storyboard */,
 				336F6DBA2A09BBA600CCBBF6 /* Info.plist */,
+				33C982562A0A3CB100DBAFFA /* RemoteConfigDefaults.plist */,
 				33C9824F2A09C14400DBAFFA /* GoogleService-Info.plist */,
 			);
 			path = Notice;
@@ -145,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33C982572A0A3CB100DBAFFA /* RemoteConfigDefaults.plist in Resources */,
 				33C9824E2A09BC4300DBAFFA /* NoticeVC.xib in Resources */,
 				336F6DB92A09BBA600CCBBF6 /* LaunchScreen.storyboard in Resources */,
 				33C982502A09C14400DBAFFA /* GoogleService-Info.plist in Resources */,
